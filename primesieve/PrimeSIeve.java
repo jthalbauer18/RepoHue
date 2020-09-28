@@ -11,9 +11,10 @@ package primesieve;
  */
 public class PrimeSIeve {
 
-    /**
-     * @param args the command line arguments
-     */
+   public interface PrimeSieve{
+    public boolean isPrime(int p);
+    public void printPrimes();
+}
     public static void main(String[] args) {
         // TODO code application logic here
     }
